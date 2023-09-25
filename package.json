@@ -1,11 +1,11 @@
 {
-  "name": "rc-time-picker",
+  "name": "@pulsarml/rc-time-picker",
   "version": "4.0.0-alpha.3",
   "description": "React TimePicker",
   "keywords": [
     "react",
     "react-time-picker",
-    "react-component",
+    "pulsarml",
     "timepicker",
     "time-picker",
     "ui component",
@@ -21,14 +21,14 @@
   ],
   "main": "lib/index",
   "module": "es/index",
-  "homepage": "http://github.com/react-component/time-picker",
-  "author": "wuzhao.mail@gmail.com",
+  "homepage": "http://github.com/pulsarml/time-picker",
+  "author": "aniketkumar049@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/time-picker.git"
+    "url": "git@github.com:pulsarml/time-picker.git"
   },
   "bugs": {
-    "url": "http://github.com/react-component/time-picker/issues"
+    "url": "http://github.com/pulsarml/time-picker/issues"
   },
   "license": "MIT",
   "dependencies": {
@@ -48,6 +48,9 @@
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development father doc dev --storybook",
