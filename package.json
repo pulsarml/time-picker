@@ -1,6 +1,6 @@
 {
   "name": "@pulsarml/rc-time-picker",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "React TimePicker",
   "keywords": [
     "react",
@@ -49,15 +49,11 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "start": "cross-env NODE_ENV=development father doc dev --storybook",
     "build": "father doc build --storybook",
     "compile": "father build && lessc assets/index.less assets/index.css",
     "gh-pages": "npm run build && father doc deploy",
-    "prepublishOnly": "npm run compile && np --yolo --no-publish",
     "lint": "eslint src/ examples/ --ext .tsx,.ts,.jsx,.js",
     "test": "father test",
     "coverage": "father test --coverage",
